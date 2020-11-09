@@ -1,1 +1,4 @@
-
+healthcare:
+  all:
+    patient:
+      url: http://localhost:8080/welcome
