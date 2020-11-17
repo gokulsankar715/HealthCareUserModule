@@ -1,15 +1,2 @@
 server:
   port: 9092
-spring:
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/world
-    username: ${dbusername}
-    password: ${dbpassword}
-  jpa:
-    show-sql: true
-    hibernate:
-      ddl-auto: update
-    properties:
-      hibernate:
-       dialect: org.hibernate.dialect.MySQL5Dialect
