@@ -8,3 +8,5 @@ healthcare:
     name: Healthcare-Vital-Signs-API
 server:
   port: 9091
+logging:
+  file: C:\Users\gokul\Documents\ELK\log\Healthcare.log\spring.log
