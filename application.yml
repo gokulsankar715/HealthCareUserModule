@@ -9,7 +9,7 @@ healthcare:
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://db:3306/world?useSSL=false
+    url: jdbc:mysql://localhost:3306/world
     username: ${dbusername}
     password: ${dbpassword}
   jpa:
