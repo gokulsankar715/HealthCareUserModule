@@ -1,7 +1,7 @@
 
 healthcare:
   patient:
-    uri: http://localhost:9092/patients
+    uri: http://localhost:9094/patients
     name: Healthcare-Patient-API
   vitalsign:
     uri: http://localhost:9093/vitalsigns
