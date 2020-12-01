@@ -6,6 +6,9 @@ healthcare:
   vitalsign:
     uri: http://localhost:9093/vitalsigns
     name: Healthcare-Vital-Signs-API
+  user:
+    uri: http://localhost:9091/users
+    name: Healthcare-User-API
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
