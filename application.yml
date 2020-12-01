@@ -9,6 +9,9 @@ healthcare:
   user:
     uri: http://localhost:9091/users
     name: Healthcare-User-API
+  role:
+    uri: http://localhost:9091/roles
+    name: Healthcare-User-API
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
