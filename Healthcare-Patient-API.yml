@@ -1,2 +1,4 @@
 server:
   port: 9094
+logging:
+  file: C:\Users\gokul\Documents\ELK\log\Healthcarepatient\elk-patient.log
