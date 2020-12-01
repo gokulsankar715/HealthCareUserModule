@@ -2,4 +2,4 @@
 server:
   port: 9091
 logging:
-  file: C:\Users\gokul\Documents\ELK\log\Healthcareuser\elk-user.log
+  file: C:/Users/gokul/Documents/ELK/log/Healthcareuser/elk-user.log
