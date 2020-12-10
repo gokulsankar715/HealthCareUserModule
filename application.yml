@@ -1,8 +1,3 @@
-amazonProperties:
-  endpointUrl: https://s3.ap-south-1.amazonaws.com
-  accessKey: AKIAYEAABJYV6HY4U2ZO
-  secretKey: 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
-  bucketName: healthcare-training-s3
 healthcare:
   patient:
     uri: http://localhost:9094/patients
