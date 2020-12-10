@@ -1,4 +1,8 @@
-
+amazonProperties:
+  endpointUrl: https://s3.ap-south-1.amazonaws.com
+  accessKey: AKIAYEAABJYV6HY4U2ZO
+  secretKey: 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
+  bucketName: healthcare-training-s3
 healthcare:
   patient:
     uri: http://localhost:9094/patients
@@ -13,6 +17,10 @@ healthcare:
     uri: http://localhost:9091/roles
     name: Healthcare-User-API
 spring:
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/world
